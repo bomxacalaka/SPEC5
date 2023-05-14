@@ -20,9 +20,9 @@ Admins can view the status of all tasks and make adjustments as needed, such as 
 
 ![alt text](https://github.com/bomxacalaka/SPEC5/blob/master/specpics/home.png?raw=true)
 
-![alt text](https://github.com/bomxacalaka/SPEC5/blob/master/specpics/adminhome.png?raw=true)
-
 ![alt text](https://github.com/bomxacalaka/SPEC5/blob/master/specpics/adminlogin.png?raw=true)
+
+![alt text](https://github.com/bomxacalaka/SPEC5/blob/master/specpics/adminhome.png?raw=true)
 
 ![alt text](https://github.com/bomxacalaka/SPEC5/blob/master/specpics/add.png?raw=true)
 
