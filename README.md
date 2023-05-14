@@ -29,4 +29,4 @@ Admins can view the status of all tasks and make adjustments as needed, such as 
 ![alt text](https://github.com/bomxacalaka/SPEC5/blob/master/specpics/edit.png?raw=true)
 
 
-In collab with @YuJuGuy @joshuaHipkiss @petronela919 @xWeavie @Peesty
+In collab with @YuJuGuy @joshuaHipkiss @petronela919 @xWeavie @Peesty @s00pin
