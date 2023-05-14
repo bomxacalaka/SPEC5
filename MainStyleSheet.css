@@ -1,0 +1,110 @@
+body {
+  padding-top: 15%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center the box on the page */
+.box {
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px ;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Style the title and subtitle */
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.maintitle {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.link{
+  font-size: 15px;
+  font-style: italic;
+  color: grey;
+  margin-top: 0;
+}
+
+/* Style the input fields and labels */
+.inputContainer {
+  margin-bottom: 20px;
+  position: relative;
+}
+.input {
+  padding: 10px 20xp;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  width: 100%;
+  font-size: 12px;
+  font-style: italic;
+  color: gray;
+}
+.input:focus {
+  outline: none;
+  border-color: #1e90ff;
+}
+.label {
+  position: absolute;
+  top: 10px; 
+  left: -5px;
+}
+.input:focus + .label,
+.input:not(:placeholder-shown) + .label {
+  transform: translateY(-25px) scale(0.8);
+  color: #1e90ff;
+}
+
+/* Style the button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff; /* Set the background color to blue */
+  color: #fff;
+  transition: background-color 0.3s ease; /* Add a transition effect */
+  font-size: 12px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #7cb7f1; /* Change the background color on hover */
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  .box {
+    width: 100%;
+    max-width: none;
+    border-radius: 0;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+}
